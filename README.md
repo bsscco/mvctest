@@ -6,7 +6,7 @@
 - C : Controller
   - 이벤트를 처리(Model의 속성 및 상태 변경 요청)하고 View에 갱신을 요청한다.
   
-![MVC Flow]()
+![MVC Flow](https://github.com/bsscco/mvctest/blob/master/mvc-flow.png?raw=true)
 User input -> Controller에서 Model에게 속성 및 상태 변경 요청 -> Model의 속성 및 상태 변경 -> Controller에서 View에게 UI 갱신 요청 -> **View는 Model을 참조**하여 UI 갱신
 
 ### 오늘의집(Android)은 전반적으로 MLVC 패턴으로 제작하였습니다. MLV(LightView)C는 지어낸 용어입니다.
@@ -25,4 +25,4 @@ User input -> Controller에서 Model에게 속성 및 상태 변경 요청 -> Mo
 
 
 User input -> Controller에서 Model에게 속성 및 상태 변경 요청 -> Model의 속성 및 상태 변경 -> Controller에서 View에게 UI 갱신 요청 -> **View는 Controller로부터 받은 값을 참조**하여 UI 갱신
-![MLVC Flow]()
+![MLVC Flow](https://github.com/bsscco/mvctest/blob/master/mlvc-flow.png?raw=true)
