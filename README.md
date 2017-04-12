@@ -1,4 +1,4 @@
-# MCV
+# MVC
 - M : Model
   - 속성 및 상태를 가진다.
 - V : View
