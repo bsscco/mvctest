@@ -9,7 +9,7 @@
 
 User input -> Controller에서 Model에게 속성 및 상태 변경 요청 -> Model의 속성 및 상태 변경 -> Controller에서 View에게 UI 갱신 요청 -> **View는 Model을 참조**하여 UI 갱신
 
-# 오늘의집(Android)은 전반적으로 MLVC 패턴으로 제작하였습니다. MLV(LightView)C는 지어낸 용어입니다.
+### 오늘의집(Android)은 전반적으로 MLVC 패턴으로 제작하였습니다. MLV(LightView)C는 지어낸 용어입니다.
 - M : Model(Data Response Object)
   - 네트워크 데이터 응답 객체
   - 속성 및 상태를 포함한다.
